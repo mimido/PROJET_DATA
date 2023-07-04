@@ -1,0 +1,52 @@
+[INFO] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example.projet_data.job:JB_FEATURE_DEV1 >-------------
+[INFO] Building PROJET_DATA JB_FEATURE_DEV1-0.1.0 (0.1,Jobs) 0.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.apache.commons:commons-lang3:jar:3.8.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.logging.log4j:log4j-api:jar:2.12.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.logging.log4j:log4j-core:jar:2.12.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.logging.log4j:log4j-slf4j-impl:jar:2.12.1 is missing, no dependency information available
+[INFO] 
+[INFO] --- builder-maven-plugin:7.3.5:generate (default) @ JB_FEATURE_DEV1 ---
+[INFO] Skipping ci-builder
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ JB_FEATURE_DEV1 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ JB_FEATURE_DEV1 ---
+[WARNING] The POM for org.eclipse.platform:org.eclipse.osgi:jar:3.13.300 is missing, no dependency information available
+[WARNING] The POM for org.apache.commons:commons-exec:jar:1.2 is missing, no dependency information available
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ JB_FEATURE_DEV1 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ JB_FEATURE_DEV1 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ JB_FEATURE_DEV1 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ JB_FEATURE_DEV1 ---
+[INFO] Building jar: C:\worspace_dev1\PROJET_DATA\poms\jobs\process\generics_jobs\jb_feature_dev1_0.1\target\jb_feature_dev1_0_1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ JB_FEATURE_DEV1 ---
+[INFO] Reading assembly descriptor: C:\worspace_dev1\PROJET_DATA\poms\jobs\process\generics_jobs\jb_feature_dev1_0.1/src/main/assemblies/assembly.xml
+[WARNING] Missing POM for org.apache.commons:commons-lang3:jar:3.8.1
+[WARNING] Missing POM for org.apache.logging.log4j:log4j-api:jar:2.12.1
+[WARNING] Missing POM for org.apache.logging.log4j:log4j-core:jar:2.12.1
+[WARNING] Missing POM for org.apache.logging.log4j:log4j-slf4j-impl:jar:2.12.1
+[INFO] Building zip: C:\worspace_dev1\PROJET_DATA\poms\jobs\process\generics_jobs\jb_feature_dev1_0.1\target\jb_feature_dev1_0_1.zip
+[INFO] 
+[INFO] --- signer-maven-plugin:7.3.1:sign (sign) @ JB_FEATURE_DEV1 ---
+[INFO] Start to sign the job artifact
+[INFO] Start to sign artifact, the source file is jb_feature_dev1_0_1.zip and target file is jb_feature_dev1_0_1_sign_.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.825 s
+[INFO] Finished at: 2023-07-04T22:48:34+02:00
+[INFO] ------------------------------------------------------------------------
