@@ -1,0 +1,9 @@
+**/jobInfo.properties
+.JETEmitters/
+.Java/
+.metadata/
+temp/
+PROJET_DATA/code/routines/system/*.*
+PROJET_DATA/temp/
+PROJET_DATA/sqlPatterns/
+PROJET_DATA/talend.project
