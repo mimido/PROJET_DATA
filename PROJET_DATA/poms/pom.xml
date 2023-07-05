@@ -17,6 +17,7 @@
     <module>jobs/process/generics_jobs/jb_azurestorage_rawdata_load_adls_generic_0.1</module>
     <module>jobs/process/generics_jobs/jb_feature_dev1_0.1</module>
     <module>jobs/process/generics_jobs/jb_feature_dev2_0.1</module>
+    <module>jobs/process/generics_jobs/jb_feature_dev3_0.1</module>
     <module>jobs/process/generics_jobs/jb_fin_rawdata_sharepoint_masterdata_0.1</module>
     <module>jobs/process/generics_jobs/jb_gen_azurestorage_getfile_0.1</module>
     <module>jobs/process/generics_jobs/jb_gen_local_loadtoazurestorage_0.2</module>
