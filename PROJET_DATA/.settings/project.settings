@@ -67,7 +67,7 @@
         "show" : true,
         "field" : "DIRECTORY",
         "name" : "FILE_PATH",
-        "value" : "\"C:/workspace_dev2/.metadata\"",
+        "value" : "\"C:/workspace_dev1/.metadata\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -180,7 +180,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v1:jnYiRc6kCLwbGxWiQX//FXaC8X8KmnK3sqBhOVNn",
+        "value" : "enc:system.encryption.key.v1:ujNEvEwpFpQ3IHZI+DJ3xW4nPFG2kD7lqzTTP1Q9",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:cdo1IWNgc8JqD4Og4kSFJyruXK20f2eiKtkeSS2z",
+        "value" : "enc:system.encryption.key.v1:WGoj3acXBJS4ZAeKNtiMxNUBy/r1LAC6rsnGGjhX",
         "contextMode" : false
       }, {
         "show" : true,
